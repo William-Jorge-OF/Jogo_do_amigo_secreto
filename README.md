@@ -1,1 +1,24 @@
-Gerenciador de Lista de AmigosEste projeto é uma aplicação web simples, desenvolvida em HTML, CSS e JavaScript, que permite ao usuário gerenciar uma lista de nomes. O principal objetivo é demonstrar como interagir com elementos da página (DOM), manipular um array em JavaScript e realizar operações básicas de lógica, como validação e sorteio.FuncionalidadesA aplicação possui três funcionalidades principais:Adicionar Amigo: Um campo de texto permite que o usuário insira um nome. Ao clicar no botão "Adicionar", o nome é validado (para garantir que não está vazio) e adicionado a um array em JavaScript. A lista na tela é atualizada automaticamente.Exibir Lista: A cada novo amigo adicionado, a função exibirAmigosNaLista() é chamada. Ela percorre o array de amigos e renderiza cada nome como um item em uma lista HTML (<ul>).Sortear Amigo: Um botão dedicado "Sortear Amigo" executa uma função que seleciona e exibe um nome aleatório do array, usando Math.random() e Math.floor().Estrutura do CódigoO projeto é um único arquivo HTML que contém as três partes principais:HTML: Define a estrutura da página, incluindo o título, o campo de entrada (<input>), os botões e os elementos que exibirão a lista e o resultado do sorteio.CSS: Estiliza a interface, garantindo uma aparência limpa e organizada.JavaScript: Contém a lógica da aplicação, incluindo:const amigos = []: O array que armazena todos os nomes.adicionarAmigo(): Função para adicionar nomes ao array.exibirAmigosNaLista(): Função para atualizar a lista na tela.sortearAmigo(): Função para sortear um nome aleatoriamente.Como UsarPara executar e testar o código, siga estes passos simples:Copie todo o conteúdo do arquivo de código.Cole em um novo arquivo de texto e salve-o com a extensão .html (por exemplo, index.html).Abra o arquivo .html em qualquer navegador web (Chrome, Firefox, Edge, etc.).A interface da aplicação será carregada, permitindo que você adicione e sorteie nomes da sua lista de amigos.
+Gerenciador de Amigos e Sorteio
+
+Este é um projeto simples de uma aplicação web que permite gerenciar uma lista de nomes de amigos e sortear um nome aleatoriamente. Desenvolvido com HTML, CSS e JavaScript, o projeto foi criado para demonstrar a interação com o DOM, manipulação de arrays e lógica de programação básica em um ambiente de navegador.
+
+Funcionalidades
+
+A aplicação oferece as seguintes funcionalidades principais:
+Adicionar Amigo: Insira um nome em um campo de texto e adicione-o à lista. A validação simples impede que nomes vazios sejam adicionados.
+Visualizar Lista: A lista de amigos é atualizada dinamicamente na interface à medida que novos nomes são adicionados.
+Sortear Amigo: Um botão realiza um sorteio para selecionar aleatoriamente um nome da lista e exibi-lo na tela.
+
+Tecnologias Utilizadas
+
+HTML5: Para a estrutura e marcação da página web.
+CSS3: Para estilização e layout, garantindo uma interface limpa e amigável.
+JavaScript (ES6+): Para a lógica de programação, incluindo manipulação do DOM e gerenciamento do array.
+
+Como Executar
+
+Para rodar a aplicação em seu ambiente local, siga os passos abaixo:
+Clone este repositório ou copie o conteúdo do arquivo.
+Salve o código em um arquivo com a extensão .html (ex: index.html).
+Abra o arquivo .html em seu navegador de preferência.
+A aplicação estará pronta para uso, permitindo que você adicione e sorteie nomes da lista.
